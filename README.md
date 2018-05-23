@@ -1,2 +1,2 @@
 # React native
-Código pronto para começar a desenvolver com react native, usando redux e react navigation.
+Código padrão que estou usando para desenvolver com react native, usando redux e react navigation.
