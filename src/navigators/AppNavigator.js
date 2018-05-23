@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import { StackNavigator } from 'react-navigation';
 import { addListener } from '../utils/redux';
 import { createDrawerNavigator } from 'react-navigation';
 

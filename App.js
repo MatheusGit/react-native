@@ -1,17 +1,8 @@
 import {
-  createStackNavigator,
-} from 'react-navigation';
-import {
   createStore,
   applyMiddleware,
-  combineReducers,
 } from 'redux';
-import {
-  createReduxBoundAddListener,
-  createReactNavigationReduxMiddleware,
-  createNavigationReducer,
-} from 'react-navigation-redux-helpers';
-import { Provider, connect } from 'react-redux';
+import { Provider } from 'react-redux';
 import React from 'react';
 
 import { middleware } from './src/utils/redux'

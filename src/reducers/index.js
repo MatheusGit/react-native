@@ -1,10 +1,5 @@
 import { combineReducers } from 'redux';
-import { NavigationActions, createStackNavigator } from 'react-navigation';
-import {
-  createReduxBoundAddListener,
-  createReactNavigationReduxMiddleware,
-  createNavigationReducer,
-} from 'react-navigation-redux-helpers';
+import { createNavigationReducer } from 'react-navigation-redux-helpers';
 import { AppNavigator } from '../navigators/AppNavigator';
 
 const navReducer = createNavigationReducer(AppNavigator);
